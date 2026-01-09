@@ -33,13 +33,12 @@ if __name__ == "__main__":
 
         # User input
         else:
-            name = input("Enter Student Name: ")
-            department = input("Enter Department: ")
-            semester = int(input("Enter Semester: "))
-            m1 = float(input("Enter marks in Subject 1: "))
-            m2 = float(input("Enter marks in Subject 2: "))
-            m3 = float(input("Enter marks in Subject 3: "))
-
+            name = Srigouri
+            department = BCA
+            semester = 3
+            m1 = 75
+            m2 = 85
+            m3 = 90
         print("\n=== Program Parameters ===")
         print(f"Student Name : {name}")
         print(f"Department   : {department}")
