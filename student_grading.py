@@ -22,7 +22,7 @@ if __name__ == "__main__":
     print("=== Student Grade Calculator ===")
 
     try:
-        # Command line input
+        # Command-line input
         if len(sys.argv) == 7:
             name = sys.argv[1]
             department = sys.argv[2]
@@ -30,15 +30,15 @@ if __name__ == "__main__":
             m1 = float(sys.argv[4])
             m2 = float(sys.argv[5])
             m3 = float(sys.argv[6])
-
-        # User input
         else:
+            # Default values (for Jenkins / Docker / CI)
             name = "Srigouri"
             department = "BCA"
             semester = 3
             m1 = 75
             m2 = 85
             m3 = 90
+
         print("\n=== Program Parameters ===")
         print(f"Student Name : {name}")
         print(f"Department   : {department}")
@@ -53,3 +53,4 @@ if __name__ == "__main__":
 
     except ValueError:
         print("Invalid input. Please enter valid numeric values.")
+
