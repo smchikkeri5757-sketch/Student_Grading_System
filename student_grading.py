@@ -33,8 +33,8 @@ if __name__ == "__main__":
 
         # User input
         else:
-            name = Srigouri
-            department = BCA
+            name = "Srigouri"
+            department = "BCA"
             semester = 3
             m1 = 75
             m2 = 85
